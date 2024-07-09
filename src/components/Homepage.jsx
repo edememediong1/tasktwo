@@ -186,11 +186,19 @@ function Homepage() {
                     <box-icon name='chevron-right' ></box-icon>
                     
                   </div>
-
                 </section>
             </article>
-
-
+        </article>
+        <article className='similar-items'>
+            <div className='item'>
+              <h1>Similar items you might Like</h1>
+              <div className='card-item'>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+              </div>
+            </div>
         </article>
       </main>
     </body>
